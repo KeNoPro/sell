@@ -24,25 +24,26 @@ export default function Home() {
             <p>You can buy this Top-Level-Domain on namebase.io.</p>
           </a>
 
-          <a href="https://www.youtube.com/watch?v=FMsEgf3sb68" className={styles.card}>
+          <a href="https://nextjs.org/learn" className={styles.card}>
             <h3>Learn &rarr;</h3>
-            <p>Why RENT subdomains when you can OWN top-level domains? !</p>
-          </a
-         <a
-            href="https://www.namebase.io/"
-            className={styles.card}
-          >
-            <h3>Namebase &rarr;</h3>
-            <p>Discover Namebase.</p>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
-            href="https://www.youtube.com/watch?v=iVLuIVJaFz0&t=142s"
+            href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h3>Create &rarr;</h3>
+            <h3>Examples &rarr;</h3>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h3>Deploy &rarr;</h3>
             <p>
-              How to Create a Handshake Website with Vercel.
+              Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
         </div>
@@ -61,7 +62,3 @@ export default function Home() {
     </div>
   )
 }
-
-
-
- 
