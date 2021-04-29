@@ -28,6 +28,23 @@ export default function Home() {
             <h3>Learn &rarr;</h3>
             <p>Why RENT subdomains when you can OWN top-level domains? !</p>
           </a
+         <a
+            href="https://www.namebase.io/"
+            className={styles.card}
+          >
+            <h3>Namebase &rarr;</h3>
+            <p>Discover Namebase.</p>
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=iVLuIVJaFz0&t=142s"
+            className={styles.card}
+          >
+            <h3>Create &rarr;</h3>
+            <p>
+              How to Create a Handshake Website with Vercel.
+            </p>
+          </a>
         </div>
       </main>
 
