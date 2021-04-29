@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://top-level-domain.skinet">the Top-Level-Domain - skinet!</a>
+          Welcome to <a href="https://top-level-domain.skinet.hns.to/">the Top-Level-Domain - skinet!</a>
         </h1>
 
         <p className={styles.description}>
@@ -19,9 +19,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.namebase.io/domains/skinet" className={styles.card}>
+            <h3>Buy &rarr;</h3>
+            <p>You can buy this Top-Level-Domain on namebase.io.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
